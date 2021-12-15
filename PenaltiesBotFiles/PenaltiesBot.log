@@ -1,0 +1,343 @@
+2021-12-03 13:13:04 | ERROR -> MySQLConnection:27 --> Не удалось подключиться к базе данных. Хост: database host | Порт: database port | Логин: database login | Пароль: database password | Код ошибки: 0
+2021-12-03 13:18:26 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 13:18:27 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 13:19:01 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 13:19:01 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 13:59:39 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 13:59:39 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 13:59:59 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 13:59:59 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 14:00:08 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 14:00:08 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 14:01:50 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 14:01:50 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 14:03:13 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1046
+2021-12-03 14:03:13 | WARN  -> SQLCommands:17 --> Произошла ошибка firstMessage. Код ошибки: 1049
+2021-12-03 14:26:02 | WARN  -> SQLCommands:107 --> Произошла ошибка hasChat. Код ошибки: 1049
+2021-12-03 23:48:44 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: 418662021 | Группа пользователя: null | Причина: Text parameter can't be empty |
+Текст: Вы вернулись в начало Olner
+2021-12-03 23:48:49 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: 418662021 | Группа пользователя: null | Причина: Text parameter can't be empty |
+Текст: Вы вернулись в начало Olner
+2021-12-04 20:47:10 | WARN  -> SQLCommands:153 --> Произошла ошибка deletePassport. Код ошибки: 1054
+2021-12-04 23:00:53 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:00:57 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:07 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:08 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:09 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:10 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:10 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:11 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:11 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:11 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:12 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:13 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:13 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:13 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:14 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:14 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:04:14 | WARN  -> SQLCommands:190 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:18:10 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:20:27 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:20:31 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:20:40 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:27:40 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-04 23:27:43 | WARN  -> SQLCommands:189 --> Произошла ошибка hasName. Код ошибки: 0
+2021-12-05 02:15:22 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка addToDb. Код ошибки: 0
+2021-12-05 15:09:18 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:09:30 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:13:43 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:15:40 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:17:28 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:20:10 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:24:20 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-05 15:25:05 | WARN  -> SQLPenaltiesCommands:42 --> Произошла ошибка getAllPenalties. Код ошибки: 1146
+2021-12-05 15:54:29 | WARN  -> SQLPenaltiesCommands:47 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:27:09 | WARN  -> SQLPenaltiesCommands:46 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:27:24 | WARN  -> SQLPenaltiesCommands:46 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:27:42 | WARN  -> SQLPenaltiesCommands:46 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:42:43 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:44:06 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:46:40 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:48:36 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:51:26 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:52:58 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:53:30 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-07 01:56:12 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getActivePenalties. Код ошибки: 0
+2021-12-07 01:56:17 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getActivePenalties. Код ошибки: 0
+2021-12-07 01:58:00 | WARN  -> SQLPenaltiesCommands:77 --> Произошла ошибка getActivePenalties. Код ошибки: 0
+2021-12-07 22:30:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:30:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:30:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:30:37 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:37 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:30:37 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:37 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:30:37 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:37 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:30:47 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:47 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:30:47 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:47 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:30:47 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:47 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:30:57 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:58 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:30:58 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:58 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:30:58 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:30:58 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:31:07 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:07 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:31:07 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:07 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:31:07 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:07 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:31:17 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:17 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:31:17 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:17 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:31:17 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:17 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:31:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5001, статус- не оплачено
+
+2021-12-07 22:31:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5002, статус- не оплачено
+
+2021-12-07 22:31:27 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:31:27 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы 
+превышение: 2003-02-02, сумма: 5003, статус- не оплачено
+
+2021-12-07 22:31:37 | WARN  -> SQLCommands:237 --> Произошла ошибка getChatByPassport. Код ошибки: 0
+2021-12-07 22:42:40 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:40 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:40 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:49 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:49 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:49 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:59 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:59 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-07 22:42:59 | WARN  -> SQLPenaltiesCommands:118 --> Произошла ошибка setSurname. Код ошибки: 1054
+2021-12-08 20:38:59 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:09 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:19 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:29 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:39 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:49 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:39:59 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:40:09 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:40:19 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:40:29 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-08 20:40:39 | WARN  -> SQLPenaltiesCommands:107 --> Произошла ошибка getAllPenalties. Код ошибки: 0
+2021-12-12 19:54:05 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-12 19:54:15 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-12 19:54:25 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-12 19:54:35 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-12 19:54:45 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-12 19:54:55 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:41:05 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы: 
+а: null, сумма: аа, статус- а
+
+2021-12-14 20:41:14 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:41:24 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:41:34 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:41:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:41:54 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:04 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:14 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:24 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:34 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:42:54 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:04 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:14 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:24 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:34 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:43:54 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:44:04 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:44:14 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:44:24 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:44:34 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:44:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:45:53 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:03 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:13 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:23 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:33 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:43 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:46:53 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:03 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:13 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:23 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:33 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:43 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:47:53 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:48:03 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:48:13 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:48:23 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:48:33 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:48:43 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:49:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:49:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:49:40 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:49:50 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:50:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:50:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:50:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:50:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:31 | WARN  -> PenaltiesCommands:125 --> Ошибка в методе addPenalty
+2021-12-14 20:51:40 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:51:50 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:40 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:52:50 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:40 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:53:50 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:30 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:40 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:54:50 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:55:00 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:55:10 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:55:20 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:55:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:55:54 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:04 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:14 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:24 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:34 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:44 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:56:54 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:57:33 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:57:34 | WARN  -> SQLPenaltiesCommands:131 --> Произошла ошибка setSurname. Код ошибки: 1049
+2021-12-14 20:57:43 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:57:53 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:03 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:10 | WARN  -> SQLPenaltiesCommands:131 --> Произошла ошибка setSurname. Код ошибки: 1049
+2021-12-14 20:58:13 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:23 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:33 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:43 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:58:53 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:59:03 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 20:59:13 | WARN  -> SQLPenaltiesCommands:105 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:01:05 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:01:10 | WARN  -> SQLPenaltiesCommands:132 --> Произошла ошибка addPenalty. Код ошибки: 1049
+2021-12-14 21:01:15 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:01:25 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:01:35 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:01:45 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:02:04 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:02:14 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
+2021-12-14 21:02:24 | WARN  -> BotUtilities:67 --> Ошибка при отправке сообщения.
+ID чата: none | Группа пользователя: none | Причина: Error sending message: [400] Bad Request: chat not found |
+Текст: У вас новые штрафы: 
+Превышение: 2003-02-02, сумма: 5000, статус- не оплачено
+
+2021-12-14 21:02:34 | WARN  -> SQLPenaltiesCommands:106 --> Произошла ошибка getUnreadPenalties. Код ошибки: 0
