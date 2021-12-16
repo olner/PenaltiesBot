@@ -34,7 +34,7 @@ public class Commands {
                         null,
                         null
                 );
-                StartButton(update);
+                //StartButton(update);
     }
 
     public void setSurname(Update update){
@@ -48,7 +48,7 @@ public class Commands {
                     null,
                     null
             );
-            StartButton(update);
+            //StartButton(update);
         }
     }
     public void setPassport(Update update) {
@@ -59,12 +59,6 @@ public class Commands {
                 bot.sendMessage(
                         chat,
                         " →Паспорт успешно сохранен!",
-                        null,
-                        null
-                );
-                bot.sendMessage(
-                        chat,
-                        "Ваши данные были сохранены. Приятного использования бота.",
                         null,
                         null
                 );
@@ -79,23 +73,39 @@ public class Commands {
 
         }
     }
+    private  StringBuilder settings(Update update){
+        StringBuilder sb = new StringBuilder();
+        sb.append("Настройки: \n");
+        var chat = update.getMessage().getChatId().toString();
+        sb.append("Пасспорт: ");
+        sb.append(SQLCommands.getPassport(chat));
+        //var name = SQLCommands.getName(chat);
+        //var surname = SQLCommands.getSurname(chat);
+        return sb;
+    }
     public void SettingsButton(Update update) {
         var chat = update.getMessage().getChatId().toString();
         bot.sendMessage(
                 chat,
-                "Настройки \n" + config.getProperty("bot.version"),
+                settings(update).toString(),
                 null,
                 keyboard.settings()
-
         );
     }
-
+    private StringBuilder commands(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("▬▬ Административные команды ▬▬\n");
+        sb.append("→ /commands - Список команд\n");
+        sb.append("→ /admins - Список администраторов\n");
+        sb.append("→ /removeadmin %username% - удалить администратора\n");
+        sb.append("→ /users - Количество чатов в боте");
+        return sb;
+    }
     public void CommandsButton(Update update) {
         var chat = update.getMessage().getChatId().toString();
         bot.sendMessage(
                 chat,
-                //TODO запихать комманды
-                "Тут должны были быть комманды но их нет ): ",
+                commands().toString(),
                 null,
                 null
         );
@@ -165,29 +175,6 @@ public class Commands {
         );
     }
 
-    public void getMessageToAll(Update update) {
-        var chat = update.getMessage().getChatId().toString();
-        var command = update.getMessage().getText().toLowerCase().replace("@Olegs_test_bot", "").replace("/", "");
-
-        if (command.equals("all")) {
-            bot.sendMessage(
-                    chat,
-                    "Ваше сообщение пустое.",
-                    null,
-                    null
-            );
-        } else {
-            var message = update.getMessage().getText().substring(5);
-            bot.sendMessage(
-                    chat,
-                    "<b>Сообщение:</b>\n\n" + message + "\n\nОтправить его?",
-                    null,
-                    keyboard.inlineconstructor("Отправить" , "Отправить Оповещение", "Отменить" , "Отменить Отправку")
-            );
-            new CallBackData().saveMsgToAll(message);
-        }
-
-    }
     public void Users(Update update) {
         var chat = update.getMessage().getChatId().toString();
         bot.sendMessage(

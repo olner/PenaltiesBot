@@ -21,7 +21,7 @@ public class CommandsHandler {
             firstLaunchCommands.setSurname(update);
         } else if (SQLCommands.hasPassport(chat)) {
             botUtilities.sendMessage(chat, "Пожалуйста введите пасспорт", null, null);
-            firstLaunchCommands.setPassport(update);
+            commands.setPassport(update);
         } else {
             HashMapCommandsHandler(
                     update,
@@ -43,8 +43,6 @@ public class CommandsHandler {
                     commands.addAdmin(update);
                 } else if (command.contains("removeadmin")) {
                     commands.removeAdmin(update);
-                } else if (command.contains("all")) {
-                    commands.getMessageToAll(update);
                 } else if (command.contains("addpenalty")) {
                     penaltiesCommands.addPenalty(update);
                 }

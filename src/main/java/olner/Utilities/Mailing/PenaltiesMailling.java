@@ -20,21 +20,26 @@ public class PenaltiesMailling extends TimerTask {
         private StringBuilder penaltiesStringBuilder(JSONObject penalties) {
                 var sb = new StringBuilder();
                 if (penalties != null) {
+                        JSONArray id = (JSONArray) penalties.get("id");
                         JSONArray name = (JSONArray) penalties.get("penalty");
                         JSONArray date = (JSONArray) penalties.get("date");
                         JSONArray sum = (JSONArray) penalties.get("sum");
                         JSONArray status = (JSONArray) penalties.get("status");
+                        Iterator<String> idIterator = id.iterator();
                         Iterator<String> nameIterator = name.iterator();
                         Iterator<String> dateIterator = date.iterator();
                         Iterator<String> sumIterator = sum.iterator();
                         Iterator<String> statusIterator = status.iterator();
                         while (nameIterator.hasNext()) {
+                                sb.append("→id - ");
+                                sb.append(idIterator.next());
+                                sb.append(" | ");
                                 sb.append(nameIterator.next());
-                                sb.append(": ");
+                                sb.append(" | ");
                                 sb.append(dateIterator.next());
-                                sb.append(", сумма: ");
+                                sb.append("| сумма: ");
                                 sb.append(sumIterator.next());
-                                sb.append(", статус- ");
+                                sb.append("| статус: ");
                                 sb.append(statusIterator.next());
                                 sb.append("\n");
                         }
@@ -46,7 +51,6 @@ public class PenaltiesMailling extends TimerTask {
 @Override
         public void run(){
                 var unreadPenalties =SQLPenaltiesCommands.getUnreadPenalties();
-                //var sb = new StringBuilder();
                 if(unreadPenalties != null){
                         JSONArray name = (JSONArray) unreadPenalties.get("penalty");
                         JSONArray date = (JSONArray) unreadPenalties.get("date");
@@ -64,13 +68,17 @@ public class PenaltiesMailling extends TimerTask {
                                 while (nameIterator.hasNext()) {
                                         var sb = new StringBuilder();
                                         var chat = SQLCommands.getChatByPassport(passportIterator.next());
-                                        sb.append("У вас новые штрафы: \n");
+                                        sb.append("▬▬▬▬У вас новые штрафы▬▬▬▬\n");
+                                        sb.append("→id - ");
+                                        var temp_id =idIterator.next();
+                                        sb.append(temp_id);
+                                        sb.append(" | ");
                                         sb.append(nameIterator.next());
-                                        sb.append(": ");
+                                        sb.append(" | ");
                                         sb.append(dateIterator.next());
-                                        sb.append(", сумма: ");
+                                        sb.append("| сумма: ");
                                         sb.append(sumIterator.next());
-                                        sb.append(", статус- ");
+                                        sb.append("| статус: ");
                                         sb.append(statusIterator.next());
                                         sb.append("\n");
                                         bot.sendMessage(
@@ -79,7 +87,7 @@ public class PenaltiesMailling extends TimerTask {
                                                 null,
                                                 null
                                         );
-                                        SQLPenaltiesCommands.changeReadStatus(idIterator.next());
+                                        SQLPenaltiesCommands.changeReadStatus(temp_id);
                                 }
                         }).start();
                 }

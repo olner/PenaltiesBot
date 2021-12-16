@@ -11,19 +11,6 @@ public class CallBackData {
     private static final BotUtilities botUtilities = new BotUtilities();
     private static final Keyboard keyboard = new Keyboard();
     private static final Configuration config = new Configuration();
-    private static String _msgToAll;
-    private static String _msgToChat;
-    private static String _msgChatID;
-
-    public void saveMsgToAll(String msg) {
-        _msgToAll = msg;
-    }
-
-    public void saveMsgToChat(String msg, String chat) {
-        _msgToChat = msg;
-        _msgChatID = chat;
-    }
-
 
     public void callBackDataHandler(Update update) {
         var chat = update.getCallbackQuery().getMessage().getChatId().toString();
@@ -32,93 +19,32 @@ public class CallBackData {
             int message_id = update.getCallbackQuery().getMessage().getMessageId();
 
             switch (update.getCallbackQuery().getData()) {
-                case "ОтменитьОтправку" -> {
-                    botUtilities.editMessageText(
-                            chat,
-                            message_id,
-                            "Отправка оповещения отменена!\n Текст: " + _msgToAll,
-                            null
-                    );
-                }
-                case "ОтправитьОповещение" -> {
-                    botUtilities.editMessageText(
-                            chat,
-                            message_id,
-                            "Оповещение отправлено!\n Текст: " + _msgToAll,
-                            null
-                    );
-                    sendMessageToAll(_msgToAll, chat, message_id);
-                }
                 case "Изменить паспорт" -> {
                     SQLCommands.deletePassport(chat);
                     botUtilities.editMessageText(
                             chat,
                             message_id,
-                            "Паспорт будет изменен",
+                            "Пожалуйста введите паспорт",
                             null
                     );
                 }
-                case "Завершить" -> editToSettings(chat, message_id, isGroupMessage, null);
+                case "Завершить" -> editToSettings(chat, message_id, null);
 
                 case "Продолжить" -> editToSettings(
                         chat,
                         message_id,
-                        isGroupMessage,
                         keyboard.settings()
                 );
-                case "ОтправитьСообщение" -> {
-                    botUtilities.editMessageText(
-                            chat,
-                            message_id,
-                            "Сообщение отправлено в чат " + _msgChatID + "!\n Текст: " + _msgToChat,
-                            null
-                    );
-                    botUtilities.sendMessage(
-                            _msgChatID,
-                            _msgToChat,
-                            null,
-                            null
-                    );
-                }
-                case "ОтменитьСообщение" -> {
-                    botUtilities.editMessageText(
-                            chat,
-                            message_id,
-                             "Отправка сообщения в чат " + _msgChatID + " отменена!\n Текст: " + _msgToChat,
-                            null
-                    );
-                }
-
             }
         }
     }
 
-    private void editToSettings(String chat, int message_id, boolean isGroupMessage, InlineKeyboardMarkup keyboard) {
+    private void editToSettings(String chat, int message_id,InlineKeyboardMarkup keyboard) {
         botUtilities.editMessageText(
                 chat,
                 message_id,
-                "editToSettings",
+                "Настройка завершена",
                 keyboard
         );
-    }
-    private void sendMessageToAll(String msg, String chat, int message_id) {
-        if (msg != null) {
-            for (int i = 1; i <= SQLCommands.totalChats(); i++) {
-                int num = i;
-                new Thread(() -> botUtilities.sendMessage(
-                        SQLCommands.getChat(num),
-                        "▬▬▬ Оповещение ▬▬▬\n" + msg,
-                        null,
-                        null
-                )).start();
-            }
-        } else {
-            botUtilities.editMessageText(
-                    chat,
-                    message_id,
-                    "Произошла ошибка!",
-                    null
-            );
-        }
     }
 }

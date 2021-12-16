@@ -17,6 +17,7 @@ public class SQLPenaltiesCommands {
 
     public  static JSONObject getAllPenalties(String chat){
         JSONObject penalties = new JSONObject();
+        JSONArray id = new JSONArray();
         JSONArray name = new JSONArray();
         JSONArray date = new JSONArray();
         JSONArray sum = new JSONArray();
@@ -28,11 +29,13 @@ public class SQLPenaltiesCommands {
             var rs = ps.executeQuery();
             while(!rs.isLast()){
                     rs.next();
+                    id.add(rs.getString("id"));
                     name.add(rs.getString("penalty"));
                     date.add(rs.getString("date"));
                     sum.add(rs.getString("sum"));
                     status.add(rs.getString("status"));
                 }
+                penalties.put("id",id);
                 penalties.put("penalty",name);
                 penalties.put("date",date);
                 penalties.put("sum",sum);
@@ -46,6 +49,7 @@ public class SQLPenaltiesCommands {
     }
     public  static JSONObject getActivePenalties(String chat){
         JSONObject penalties = new JSONObject();
+        JSONArray id = new JSONArray();
         JSONArray name = new JSONArray();
         JSONArray date = new JSONArray();
         JSONArray sum = new JSONArray();
@@ -58,11 +62,13 @@ public class SQLPenaltiesCommands {
             var rs = ps.executeQuery();
             while(!rs.isLast()){
                 rs.next();
+                id.add(rs.getString("id"));
                 name.add(rs.getString("penalty"));
                 date.add(rs.getString("date"));
                 sum.add(rs.getString("sum"));
                 status.add(rs.getString("status"));
             }
+                penalties.put("id",id);
                 penalties.put("penalty",name);
                 penalties.put("date",date);
                 penalties.put("sum",sum);
@@ -103,7 +109,9 @@ public class SQLPenaltiesCommands {
             penalties.put("id",id);
             return penalties;
         } catch (SQLException e) {
-            log.warn("Произошла ошибка getUnreadPenalties. Код ошибки: {} - 99% - не найденные записи", e.getErrorCode());
+            if (e.getErrorCode() != 0 ) {
+                log.warn("Произошла ошибка getUnreadPenalties. Код ошибки: {}", e.getErrorCode());
+            }
         }
         return null;
     }

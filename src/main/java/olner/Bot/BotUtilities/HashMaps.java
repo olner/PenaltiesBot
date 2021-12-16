@@ -30,7 +30,9 @@ public class HashMaps {
             commandMap.put("паспорт",commands::setPassport);
             commandMap.put("штрафы",penaltiesCommands::penaltiesButton);
             commandMap.put("всештрафы", penaltiesCommands::getPenalties);
+            commandMap.put("allpenalties", penaltiesCommands::getPenalties);
             commandMap.put("активныештрафы",penaltiesCommands::getActivePenalties);
+            commandMap.put("activepenalties",penaltiesCommands::getActivePenalties);
             //commandMap.put("addpenalty",penaltiesCommands::addPenalty);
             commandAdminMap.put("commands", commands::CommandsButton);
             commandAdminMap.put("admins", commands::Admins);

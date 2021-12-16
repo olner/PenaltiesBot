@@ -22,21 +22,26 @@ public class PenaltiesCommands {
     private StringBuilder penaltiesStringBuilder(JSONObject penalties) {
         var sb = new StringBuilder();
         if (penalties != null) {
+            JSONArray id = (JSONArray) penalties.get("id");
             JSONArray name = (JSONArray) penalties.get("penalty");
             JSONArray date = (JSONArray) penalties.get("date");
             JSONArray sum = (JSONArray) penalties.get("sum");
             JSONArray status = (JSONArray) penalties.get("status");
+            Iterator<String> idIterator = id.iterator();
             Iterator<String> nameIterator = name.iterator();
             Iterator<String> dateIterator = date.iterator();
             Iterator<String> sumIterator = sum.iterator();
             Iterator<String> statusIterator = status.iterator();
             while (nameIterator.hasNext()) {
+                sb.append("→id - ");
+                sb.append(idIterator.next());
+                sb.append(" | ");
                 sb.append(nameIterator.next());
-                sb.append(": ");
+                sb.append(" | ");
                 sb.append(dateIterator.next());
-                sb.append(", сумма: ");
+                sb.append("| сумма: ");
                 sb.append(sumIterator.next());
-                sb.append(", статус- ");
+                sb.append("| статус: ");
                 sb.append(statusIterator.next());
                 sb.append("\n");
             }
@@ -61,7 +66,7 @@ public class PenaltiesCommands {
         if (sb != null){
             bot.sendMessage(
                     chat,
-                    "Ваши штрафы:",
+                    "▬▬Ваши штрафы▬▬",
                     null,
                     null
             );
@@ -89,7 +94,7 @@ public class PenaltiesCommands {
         if (sb != null){
             bot.sendMessage(
                     chat,
-                "Ваши неоплачненые штрафы:",
+                "▬▬Ваши неоплачненые штрафы▬▬",
                 null,
                 null
             );
@@ -126,7 +131,7 @@ public class PenaltiesCommands {
         }
         bot.sendMessage(
                 chat,
-                "Произошла ошибка при доюавлении",
+                "Произошла ошибка при добавлении",
                 null,
                 null
         );
