@@ -33,7 +33,6 @@ public class HashMaps {
             commandMap.put("allpenalties", penaltiesCommands::getPenalties);
             commandMap.put("активныештрафы",penaltiesCommands::getActivePenalties);
             commandMap.put("activepenalties",penaltiesCommands::getActivePenalties);
-            //commandMap.put("addpenalty",penaltiesCommands::addPenalty);
             commandAdminMap.put("commands", commands::CommandsButton);
             commandAdminMap.put("admins", commands::Admins);
             commandMap.put("users", commands::Users);

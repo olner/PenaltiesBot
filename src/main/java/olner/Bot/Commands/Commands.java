@@ -96,11 +96,13 @@ public class Commands {
     }
     private StringBuilder commands(){
         StringBuilder sb = new StringBuilder();
-        sb.append("▬▬ Административные команды ▬▬\n");
+        sb.append("▬▬ Админинские команды ▬▬\n");
         sb.append("→ /commands - Список команд\n");
         sb.append("→ /admins - Список администраторов\n");
+        sb.append("→ /addadmin %username% - Список администраторов\n");
         sb.append("→ /removeadmin %username% - удалить администратора\n");
-        sb.append("→ /users - Количество чатов в боте");
+        sb.append("→ /users - Количество чатов в боте\n");
+        sb.append("→ /addpenalty %passport%, %name%, %surname%, %penalty%, %sum%, %status%, %date% - добавить штраф в базу данных");
         return sb;
     }
     public void CommandsButton(Update update) {
