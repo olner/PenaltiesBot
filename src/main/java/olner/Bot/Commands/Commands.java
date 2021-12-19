@@ -75,12 +75,14 @@ public class Commands {
     }
     private  StringBuilder settings(Update update){
         StringBuilder sb = new StringBuilder();
-        sb.append("Настройки: \n");
+        sb.append("▬▬Настройки▬▬\n");
         var chat = update.getMessage().getChatId().toString();
         sb.append("Пасспорт: ");
-        sb.append(SQLCommands.getPassport(chat));
-        //var name = SQLCommands.getName(chat);
-        //var surname = SQLCommands.getSurname(chat);
+        sb.append(SQLCommands.getPassport(chat) + "\n");
+        sb.append("Имя: ");
+        sb.append(SQLCommands.getName(chat) + "\n");
+        sb.append("Фамилия: ");
+        sb.append(SQLCommands.getSurname(chat));
         return sb;
     }
     public void SettingsButton(Update update) {

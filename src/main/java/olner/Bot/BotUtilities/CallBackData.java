@@ -28,6 +28,24 @@ public class CallBackData {
                             null
                     );
                 }
+                case "Изменить имя"-> {
+                    SQLCommands.deleteName(chat);
+                    botUtilities.editMessageText(
+                            chat,
+                            message_id,
+                            "Пожалуйста введите имя",
+                            null
+                    );
+                }
+                case "Изменить Фамилию"-> {
+                    SQLCommands.deleteSurname(chat);
+                    botUtilities.editMessageText(
+                            chat,
+                            message_id,
+                            "Пожалуйста введите фамилию",
+                            null
+                    );
+                }
                 case "Завершить" -> editToSettings(chat, message_id, null);
 
                 case "Продолжить" -> editToSettings(

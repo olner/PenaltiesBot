@@ -72,21 +72,31 @@ public class Keyboard {
         var inlineKeyboardMarkup = new InlineKeyboardMarkup();
         var inlineKeyboardButton1 = new InlineKeyboardButton();
         var inlineKeyboardButton2 = new InlineKeyboardButton();
+        var inlineKeyboardButton3 = new InlineKeyboardButton();
+        var inlineKeyboardButton4 = new InlineKeyboardButton();
 
         inlineKeyboardButton1.setText("Изменить паспорт");
         inlineKeyboardButton1.setCallbackData("Изменить паспорт");
-        inlineKeyboardButton2.setText("Закончить");
-        inlineKeyboardButton2.setCallbackData("Завершить");
+        inlineKeyboardButton2.setText("Изменить имя");
+        inlineKeyboardButton2.setCallbackData("Изменить имя");
+        inlineKeyboardButton3.setText("Изменить имя");
+        inlineKeyboardButton3.setCallbackData("Изменить имя");
+        inlineKeyboardButton4.setText("Закончить");
+        inlineKeyboardButton4.setCallbackData("Завершить");
 
         var keyboardButtonsRow1 = new ArrayList<InlineKeyboardButton> ();
         var keyboardButtonsRow2 = new ArrayList<InlineKeyboardButton> ();
         var keyboardButtonsRow3 = new ArrayList<InlineKeyboardButton> ();
-        var keyboardButtonsRow5 = new ArrayList<InlineKeyboardButton> ();
+        var keyboardButtonsRow4 = new ArrayList<InlineKeyboardButton> ();
 
         keyboardButtonsRow1.add(inlineKeyboardButton1);
         rows.add(keyboardButtonsRow1);
         keyboardButtonsRow2.add(inlineKeyboardButton2);
         rows.add(keyboardButtonsRow2);
+        keyboardButtonsRow3.add(inlineKeyboardButton3);
+        rows.add(keyboardButtonsRow3);
+        keyboardButtonsRow4.add(inlineKeyboardButton4);
+        rows.add(keyboardButtonsRow4);
 
         inlineKeyboardMarkup.setKeyboard(rows);
         return inlineKeyboardMarkup;

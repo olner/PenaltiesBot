@@ -153,6 +153,26 @@ public class SQLCommands {
             log.warn("Произошла ошибка deletePassport. Код ошибки: {}", e.getErrorCode());
         }
     }
+    public static void deleteName(String chat){
+        try {
+            var ps = Objects.requireNonNull(MySQLConnection.getConnection()).prepareStatement("UPDATE bot_data.users SET name = ? WHERE Chat = ?");
+            ps.setString(1, "не указано");
+            ps.setString(2, chat);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            log.warn("Произошла ошибка deleteName. Код ошибки: {}", e.getErrorCode());
+        }
+    }
+    public static void deleteSurname(String chat){
+        try {
+            var ps = Objects.requireNonNull(MySQLConnection.getConnection()).prepareStatement("UPDATE bot_data.users SET surname = ? WHERE Chat = ?");
+            ps.setString(1, "не указано");
+            ps.setString(2, chat);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            log.warn("Произошла ошибка deleteSurname. Код ошибки: {}", e.getErrorCode());
+        }
+    }
     public static boolean hasPassport(String chat){
         try{
             var ps =Objects.requireNonNull(MySQLConnection.getConnection()).prepareStatement("SELECT * FROM bot_data.users WHERE passport_number = ? AND Chat = ?");
@@ -222,6 +242,32 @@ public class SQLCommands {
             }
         } catch (SQLException e) {
             log.warn("Произошла ошибка getPassport. Код ошибки: {}", e.getErrorCode());
+        }
+        return "none";
+    }
+    public static String getName(String chat){
+        try {
+            var ps = Objects.requireNonNull(MySQLConnection.getConnection()).prepareStatement("SELECT name FROM bot_data.users WHERE chat = ?");
+            ps.setString(1, String.valueOf(chat));
+            var rs = ps.executeQuery();
+            if (rs.next()) {
+                return rs.getString("name");
+            }
+        } catch (SQLException e) {
+            log.warn("Произошла ошибка getName. Код ошибки: {}", e.getErrorCode());
+        }
+        return "none";
+    }
+    public static String getSurname(String chat){
+        try {
+            var ps = Objects.requireNonNull(MySQLConnection.getConnection()).prepareStatement("SELECT surname FROM bot_data.users WHERE chat = ?");
+            ps.setString(1, String.valueOf(chat));
+            var rs = ps.executeQuery();
+            if (rs.next()) {
+                return rs.getString("surname");
+            }
+        } catch (SQLException e) {
+            log.warn("Произошла ошибка getSurname. Код ошибки: {}", e.getErrorCode());
         }
         return "none";
     }
